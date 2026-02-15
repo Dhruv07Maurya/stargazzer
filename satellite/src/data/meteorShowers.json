@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Quadrantids",
+        "peakDate": "2026-01-03",
+        "radiant": "Boötes",
+        "expectedRate": 110
+    },
+    {
+        "name": "Lyrids",
+        "peakDate": "2026-04-22",
+        "radiant": "Lyra",
+        "expectedRate": 18
+    },
+    {
+        "name": "Eta Aquariids",
+        "peakDate": "2026-05-06",
+        "radiant": "Aquarius",
+        "expectedRate": 50
+    },
+    {
+        "name": "Perseids",
+        "peakDate": "2026-08-12",
+        "radiant": "Perseus",
+        "expectedRate": 100
+    },
+    {
+        "name": "Orionids",
+        "peakDate": "2026-10-21",
+        "radiant": "Orion",
+        "expectedRate": 20
+    },
+    {
+        "name": "Leonids",
+        "peakDate": "2026-11-17",
+        "radiant": "Leo",
+        "expectedRate": 15
+    },
+    {
+        "name": "Geminids",
+        "peakDate": "2026-12-14",
+        "radiant": "Gemini",
+        "expectedRate": 120
+    }
+]

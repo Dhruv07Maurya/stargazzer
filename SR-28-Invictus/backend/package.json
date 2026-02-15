@@ -1,0 +1,22 @@
+{
+  "name": "astroview-backend",
+  "version": "1.0.0",
+  "description": "AstroView Backend API Server",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": ["astronomy", "space", "api", "express"],
+  "author": "AstroView Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "mongoose": "^7.0.0",
+    "dotenv": "^16.0.3",
+    "axios": "^1.3.0"
+  },
+  "devDependencies": {}
+}

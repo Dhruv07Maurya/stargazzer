@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Total Lunar",
+        "date": "2026-03-03",
+        "visibilityRegion": "Americas, Europe, Africa"
+    },
+    {
+        "type": "Total Solar",
+        "date": "2026-08-12",
+        "visibilityRegion": "Arctic, Greenland, Iceland, Spain"
+    },
+    {
+        "type": "Penumbral Lunar",
+        "date": "2026-08-28",
+        "visibilityRegion": "Americas, Europe, Africa"
+    },
+    {
+        "type": "Annular Solar",
+        "date": "2026-02-17",
+        "visibilityRegion": "Antarctica"
+    }
+]

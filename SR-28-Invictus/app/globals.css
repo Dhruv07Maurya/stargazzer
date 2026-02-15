@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Cosmic Dark Theme - Deep space background */
+    --background: 260 40% 8%;
+    --foreground: 0 0% 98%;
+    --card: 260 35% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 260 35% 12%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 270 60% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 200 50% 45%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 260 15% 30%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 280 70% 55%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 260 20% 20%;
+    --input: 260 25% 15%;
+    --ring: 270 60% 50%;
+    --chart-1: 270 60% 50%;
+    --chart-2: 200 50% 45%;
+    --chart-3: 150 60% 45%;
+    --chart-4: 280 70% 55%;
+    --chart-5: 320 65% 50%;
+    --radius: 0.5rem;
+    --sidebar-background: 260 30% 10%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 270 60% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 280 70% 55%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 260 20% 18%;
+    --sidebar-ring: 270 60% 50%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f0821 0%, #1a0a3a 50%, #0d1b2a 100%);
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+  }
+}
+
+@keyframes twinkle {
+
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .cosmic-glow {
+    box-shadow: 0 0 20px rgba(138, 43, 226, 0.1), 0 0 40px rgba(75, 0, 130, 0.05);
+  }
+
+  .cosmic-border {
+    border-color: rgba(138, 43, 226, 0.2);
+  }
+
+  .hover-cosmic {
+    transition: all 0.3s ease;
+  }
+
+  .hover-cosmic:hover {
+    box-shadow: 0 0 30px rgba(138, 43, 226, 0.2), 0 0 60px rgba(75, 0, 130, 0.1);
+    border-color: rgba(138, 43, 226, 0.4);
+  }
+}
+
+@keyframes earth-drift {
+  0% {
+    transform: translateX(-50%) scale(1.0) rotate(-2deg);
+  }
+
+  50% {
+    transform: translateX(-42%) scale(1.05) rotate(1deg);
+  }
+
+  100% {
+    transform: translateX(-50%) scale(1.0) rotate(-2deg);
+  }
+}
+
+@keyframes text-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-earth-drift {
+  animation: earth-drift 30s ease-in-out infinite;
+}
+
+.animate-text-reveal {
+  animation: text-reveal 1.5s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+.animate-fade-in-right {
+  animation: fade-in-right 1s ease-out forwards;
+}
+
+.animate-fade-in-down {
+  animation: fade-in-down 1.2s ease-out forwards;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 1.5s ease-out forwards;
+}

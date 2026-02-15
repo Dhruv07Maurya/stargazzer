@@ -1,0 +1,77 @@
+{
+  "planet": "mars",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Olympus Mons, the largest volcano in the Solar System, is significantly taller and wider than any volcano on Earth. What is the primary reason for its immense size on Mars compared to Earth's volcanoes?",
+      "options": [
+        "Higher internal geological activity on Mars",
+        "Lower surface gravity and the absence of plate tectonics",
+        "More frequent and powerful eruptions",
+        "The planet's closer proximity to the Sun"
+      ],
+      "correctAnswer": "Lower surface gravity and the absence of plate tectonics",
+      "explanation": "On Earth, plate tectonics move volcanoes away from stationary hotspots, creating chains of smaller volcanoes. On Mars, without plate tectonics, a volcano like Olympus Mons can continuously erupt over the same hotspot for billions of years, growing to enormous sizes due to the lower gravity allowing material to pile up higher."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following geological features provides the strongest evidence for the widespread presence of liquid water on Mars's surface in its ancient past?",
+      "options": [
+        "Vast plains of solidified lava flows",
+        "Large impact craters with central peaks",
+        "Extensive networks of ancient river valleys and lakebeds",
+        "Deep canyons like Valles Marineris"
+      ],
+      "correctAnswer": "Extensive networks of ancient river valleys and lakebeds",
+      "explanation": "While Valles Marineris is a significant feature (likely tectonic/erosional), and other features exist, the presence of dendritic river valley networks, deltas, and clear evidence of sedimentary rock formations in ancient lakebeds (like Gale Crater explored by Curiosity) are the most compelling direct evidence for persistent surface liquid water."
+    },
+    {
+      "id": 3,
+      "question": "Mars has two small, irregularly shaped moons, Phobos and Deimos. What is the most widely accepted theory regarding their origin?",
+      "options": [
+        "They are fragments of a larger, shattered ancient Martian moon.",
+        "They formed alongside Mars from the same protoplanetary disk material.",
+        "They are captured asteroids from the asteroid belt.",
+        "They are volcanic ejecta from early large impacts on Mars."
+      ],
+      "correctAnswer": "They are captured asteroids from the asteroid belt.",
+      "explanation": "Their irregular shapes, low densities (suggesting they are porous rubble piles), and orbital characteristics are consistent with them being asteroids captured by Mars's gravity. Spectroscopic analysis also suggests a composition similar to C-type or D-type asteroids."
+    },
+    {
+      "id": 4,
+      "question": "What is the primary reason Mars experiences planet-wide dust storms that can obscure its entire surface for months?",
+      "options": [
+        "Strong magnetic field activity",
+        "Absence of large liquid water bodies",
+        "Thin atmosphere with significant temperature gradients",
+        "Frequent volcanic eruptions"
+      ],
+      "correctAnswer": "Thin atmosphere with significant temperature gradients",
+      "explanation": "Mars's thin atmosphere, combined with significant temperature differences between sunlit and shadowed regions (especially during its eccentric orbit), creates powerful winds that can lift vast amounts of fine dust, leading to global storms."
+    },
+    {
+      "id": 5,
+      "question": "While Mars's atmosphere is extremely thin, it is primarily composed of which gas?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Carbon Dioxide",
+        "Argon"
+      ],
+      "correctAnswer": "Carbon Dioxide",
+      "explanation": "The Martian atmosphere is over 95% carbon dioxide, with smaller amounts of nitrogen, argon, oxygen, and other trace gases. This is a key difference from Earth's nitrogen-oxygen dominant atmosphere."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following best describes the primary objective of current Mars rover missions like Perseverance in relation to the search for life?",
+      "options": [
+        "To directly detect living microbial organisms currently existing on Mars.",
+        "To analyze the chemical composition of the Martian atmosphere for evidence of biological activity.",
+        "To collect and cache samples of Martian rocks and soil for future return to Earth, searching for ancient biosignatures.",
+        "To establish a permanent human outpost on Mars and test its habitability."
+      ],
+      "correctAnswer": "To collect and cache samples of Martian rocks and soil for future return to Earth, searching for ancient biosignatures.",
+      "explanation": "Current missions like Perseverance are focused on astrobiology, specifically searching for signs of ancient microbial life in environments that were habitable billions of years ago. The rover is collecting carefully selected samples for a future Mars Sample Return mission, where they can be analyzed with sophisticated instruments on Earth for definitive evidence of past life. Direct detection of current life is extremely challenging with current technology on the surface."
+    }
+  ]
+}
